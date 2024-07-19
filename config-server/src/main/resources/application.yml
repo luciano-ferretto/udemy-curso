@@ -7,10 +7,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/luciano-ferretto/config-server
+          uri: https://github.com/luciano-ferretto/udemy-curso
           default-label: main
           search-paths:
-          - 'greeting-service*'
+          - 'configs/greeting-service*'
+          - 'configs*'
           #username: username
           #password: password
 
