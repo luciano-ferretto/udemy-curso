@@ -10,7 +10,10 @@ spring:
           uri: https://github.com/luciano-ferretto/udemy-curso
           default-label: main
           search-paths:
-          - 'configs/greeting-service*'
-
+          - 'configs/{application}'
           #username: username
           #password: password
+  security:
+    user:
+      name: admin
+      password: secret_pass
