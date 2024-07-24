@@ -5,7 +5,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component
-@RefreshScope
+@RefreshScope //para permitir atualizar sem reiniciar a applicação - http://localhost:8080/actuator/refresh
 @ConfigurationProperties("greeting-service")
 public class GreetingConfig {
 	
