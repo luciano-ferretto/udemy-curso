@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.prof_ferretto.book_service.entities.BookEntity;
-import br.com.prof_ferretto.book_service.proxy.CambioProxy;
+import br.com.prof_ferretto.book_service.proxies.CambioProxy;
 import br.com.prof_ferretto.book_service.repositories.BookRepository;
 
 @RestController

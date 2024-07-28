@@ -3,7 +3,6 @@ package br.com.prof_ferretto.cambio_service.controllers;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

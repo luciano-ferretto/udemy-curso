@@ -1,4 +1,4 @@
-package br.com.prof_ferretto.book_service.responses;
+package br.com.prof_ferretto.book_service.proxies;
 
 import java.math.BigDecimal;
 
